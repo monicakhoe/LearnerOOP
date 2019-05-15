@@ -15,6 +15,7 @@
 		E9D2B422228BE5970023FC0D /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2B421228BE5970023FC0D /* LearnerModel.swift */; };
 		E9D2B424228BF6B10023FC0D /* HandphoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2B423228BF6B10023FC0D /* HandphoneModel.swift */; };
 		E9D2B426228C03030023FC0D /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2B425228C03030023FC0D /* FacilitatorModel.swift */; };
+		E9D2B428228C098C0023FC0D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2B427228C098C0023FC0D /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E9D2B421228BE5970023FC0D /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		E9D2B423228BF6B10023FC0D /* HandphoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandphoneModel.swift; sourceTree = "<group>"; };
 		E9D2B425228C03030023FC0D /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		E9D2B427228C098C0023FC0D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E9D2B411228BD85A0023FC0D /* ViewController.swift */,
 				E9D2B421228BE5970023FC0D /* LearnerModel.swift */,
 				E9D2B413228BD85A0023FC0D /* Main.storyboard */,
+				E9D2B427228C098C0023FC0D /* RoundedButton.swift */,
 				E9D2B423228BF6B10023FC0D /* HandphoneModel.swift */,
 				E9D2B425228C03030023FC0D /* FacilitatorModel.swift */,
 				E9D2B416228BD85B0023FC0D /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D2B412228BD85A0023FC0D /* ViewController.swift in Sources */,
+				E9D2B428228C098C0023FC0D /* RoundedButton.swift in Sources */,
 				E9D2B424228BF6B10023FC0D /* HandphoneModel.swift in Sources */,
 				E9D2B422228BE5970023FC0D /* LearnerModel.swift in Sources */,
 				E9D2B426228C03030023FC0D /* FacilitatorModel.swift in Sources */,
