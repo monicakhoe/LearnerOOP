@@ -13,6 +13,8 @@
 		E9D2B417228BD85B0023FC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D2B416228BD85B0023FC0D /* Assets.xcassets */; };
 		E9D2B41A228BD85B0023FC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D2B418228BD85B0023FC0D /* LaunchScreen.storyboard */; };
 		E9D2B422228BE5970023FC0D /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2B421228BE5970023FC0D /* LearnerModel.swift */; };
+		E9D2B424228BF6B10023FC0D /* HandphoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2B423228BF6B10023FC0D /* HandphoneModel.swift */; };
+		E9D2B426228C03030023FC0D /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2B425228C03030023FC0D /* FacilitatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E9D2B419228BD85B0023FC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D2B41B228BD85B0023FC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D2B421228BE5970023FC0D /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
+		E9D2B423228BF6B10023FC0D /* HandphoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandphoneModel.swift; sourceTree = "<group>"; };
+		E9D2B425228C03030023FC0D /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E9D2B411228BD85A0023FC0D /* ViewController.swift */,
 				E9D2B421228BE5970023FC0D /* LearnerModel.swift */,
 				E9D2B413228BD85A0023FC0D /* Main.storyboard */,
+				E9D2B423228BF6B10023FC0D /* HandphoneModel.swift */,
+				E9D2B425228C03030023FC0D /* FacilitatorModel.swift */,
 				E9D2B416228BD85B0023FC0D /* Assets.xcassets */,
 				E9D2B418228BD85B0023FC0D /* LaunchScreen.storyboard */,
 				E9D2B41B228BD85B0023FC0D /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D2B412228BD85A0023FC0D /* ViewController.swift in Sources */,
+				E9D2B424228BF6B10023FC0D /* HandphoneModel.swift in Sources */,
 				E9D2B422228BE5970023FC0D /* LearnerModel.swift in Sources */,
+				E9D2B426228C03030023FC0D /* FacilitatorModel.swift in Sources */,
 				E9D2B410228BD85A0023FC0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,12 +8,6 @@
 
 import UIKit
 
-// Real World Entities
-// Object : Handphone
-// Uniqueness : Small stuff that u can carry on all the time, have a lot of functions that could help people's life easier (communication, payment, photo, etc)
-// Describe (attributes) : brand, button, speaker, screen
-// Function : tools for communication, online payment, etc.
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var learnerNameLabel: UILabel!
@@ -21,16 +15,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var learnerGenderLabel: UILabel!
     
     var learnerInstance: LearnerModel? //copy of LearnerModel
+    var facilitatorInstance: FacilitatorModel?
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         learnerInstance = LearnerModel(nameLearner: "Monica", ageLearner: 20, genderLearner: "Female", imageProfileLearner: "")
+        facilitatorInstance = FacilitatorModel(facilName: "Win", facilAge: 17, facilGender: "Male", facilImageProfile: "", facilPerk: "Unlimited Happiness")
         updateUI()
     }
 
     func updateUI() {
-        if let instance = learnerInstance {
+        if let instance = facilitatorInstance {
             learnerNameLabel.text = instance.name
             learnerAgeLabel.text = "\(instance.age)"
             learnerGenderLabel.text = instance.gender
@@ -39,10 +35,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func increaseAgeButtonClicked(_ sender: UIButton) {
-        if let instance = learnerInstance {
+        if let instance = facilitatorInstance {
             instance.increaseAge()
+            instance.coachMentee()
             updateUI()
         }
+    
     }
     
 }
